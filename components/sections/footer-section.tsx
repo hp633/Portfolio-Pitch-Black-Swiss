@@ -180,8 +180,7 @@ export function FooterSection() {
 
           {/* Subtext */}
           <p className="font-nohemi text-lg md:text-xl text-white/50 max-w-lg mb-12">
-            Have a project in mind? Let&apos;s create something extraordinary
-            together.
+            Looking for data-driven clarity? Let's connect to discuss how I bridge the gap between business goals and technical execution.
           </p>
 
           {/* CTA Button with Magnetic Effect */}
@@ -198,7 +197,7 @@ export function FooterSection() {
               "group-hover:bg-accent-blue group-hover:text-white",
               "group-hover:shadow-[0_0_40px_rgba(59,130,246,0.5)]"
             )}>
-              Start a Project
+              Start working together
               <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -207,12 +206,12 @@ export function FooterSection() {
 
           {/* Email flip */}
           <div className="mt-12">
-            <FlippingEmail email="dev.sufyaan@gmail.com" />
+            <FlippingEmail email="hinalprabhu@gmail.com" />
           </div>
 
           {/* Social links with magnetic effect */}
           <div className="mt-16 flex items-center gap-6 flex-wrap justify-center">
-            {["Twitter", "GitHub", "LinkedIn", "Dribbble"].map((social) => (
+            {["Linkedin", "GitHub"].map((social) => (
               <MagneticButton
                 key={social}
                 as="a"

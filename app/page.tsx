@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Hinal Prabhu | Product Owner and Business Analyst",
+  description: "Business Analyst & Product Owner Portfolio",
+};
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { HeroSection } from "@/components/sections/hero-section";
 import { AboutSection } from "@/components/sections/about-section";
@@ -12,8 +16,8 @@ export default function Home() {
   const navItems = [
     { name: "Work", link: "#work" },
     { name: "About", link: "#about" },
-    { name: "Process", link: "#process" },
-    { name: "Skills", link: "#skills" },
+    { name: "Expertise", link: "#expertise" },
+    { name: "Strategies", link: "#strategies" },
   ];
 
   return (
@@ -28,7 +32,7 @@ export default function Home() {
         {/* Kinetic Marquee - Breaking the grid */}
         <div className="relative -my-8 md:-my-12 z-0">
           <KineticMarquee 
-            text="CREATIVE DEVELOPER — BASED IN PARIS — DESIGN — CODE — "
+            text="ANALYST — BASED IN THE USA — ROADMAPS — VISUALISATION — "
             baseVelocity={0.5}
             skewFactor={0.8}
           />
@@ -43,7 +47,7 @@ export default function Home() {
         {/* Kinetic Marquee - Second instance */}
         <div className="relative -my-8 md:-my-12 z-0">
           <KineticMarquee 
-            text="AVAILABLE FOR PROJECTS — LET'S COLLABORATE — "
+            text="AVAILABLE FOR WORK — LET'S COLLABORATE — "
             baseVelocity={-0.4}
             skewFactor={0.6}
           />
